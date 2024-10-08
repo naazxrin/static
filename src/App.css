@@ -1,0 +1,139 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+li{
+  text-decoration: none;
+}
+#movie{
+  font-family: "Bodoni Moda SC", system-ui;
+}
+#button1:hover{
+background-color: white;
+color: brown;
+border-color: gray;
+font-size: 17px;
+}
+#head{
+  font-size: 30px;
+  font-family: "Kalam", system-ui;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+
+}
+#tittle{
+  color: white;
+}
+#paris{
+  font-family: "Bona Nova SC", system-ui;
+
+}
+p{
+  font-family: "Caveat", system-ui;
+  color:gray;
+}
+#par{
+  font-family: "Dancing Script", system-ui;
+
+}
+#onc:hover{
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+#ex1{
+  border-radius: 50%;
+}
+
+#ex1:hover{
+  cursor: pointer;
+  transform: translatey(10px);
+}
+#bor{
+  background-color: white;
+  border-radius: 20px;
+}
+.fa-solid,.fa-regular{
+  color: yellow;
+}
+#para{
+  color: black;
+}
+#review{
+  border-radius: 50%;
+}
+#review:hover{
+  cursor: pointer;
+  transform: translatey(10px);
+
+}
+#a{
+  text-decoration: none;
+}
+#ll{
+  list-style: none;
+  color: white;
+}
+#card:hover{
+
+  cursor: pointer;
+  transform: translatey(10px);
+}
+#bor:hover{
+  cursor: pointer;
+  transform: translatey(10px);
+ 
+}
+#ho:hover{
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+}
+@media screen and (max-width:768px) {
+  #flee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #carrr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #carr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #car{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #paa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
